@@ -62,3 +62,17 @@ git checkout hello-world-image
 
 #
 Emergency Branch
+When we are working on a branch and its not fully prepared it, and in the mean time any bug occured so we have to fix that bug without make any changes in both branches so we create emergency branch.
+
+git checkout -b emergency-branch-name
+
+fix the changes in files
+add the files through git.
+commit the files
+
+we have the emergency brancg ready, we have to just merge it to the master branch.
+
+
+
+
+
