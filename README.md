@@ -28,3 +28,27 @@ git commit -m "First release of Hello World!"
 
 Git Commit without Stage
 git commit -a -m "Updated index.html with a new line"
+
+#
+To view the history of commits for a repository
+git log
+
+#
+See all the available options for the specific command
+git command -help
+
+#
+See all possible commands
+git help --all
+
+#
+Git Branch
+a branch is a new/separate version of the main repository
+Branches allow you to work on different parts of a project without impacting the main branch.
+When the work is complete, a branch can be merged with the main project.
+You can even switch between branches and work on different projects without them interfering with each other.
+
+git branch hello-world-images
+
+check branches
+git branch
